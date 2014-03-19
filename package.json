@@ -1,0 +1,22 @@
+{
+  "name": "extract",
+  "version": "0.0.0",
+  "description": "Extract contents of a dynamic site into minimal static assets",
+  "main": "grunt",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Noah Zoschke",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "async": "~0.2.10",
+    "cheerio": "~0.13.1",
+    "grunt": "~0.4.4",
+    "grunt-uncss": "~0.2.2",
+    "grunt-prettify": "~0.3.4",
+    "grunt-http": "~1.1.0",
+    "request": "~2.34.0"
+  }
+}
