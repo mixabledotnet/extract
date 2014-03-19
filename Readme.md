@@ -53,8 +53,10 @@ File dist/style.css created.
 
 Done, without errors.
 
-$ du -h src dist/*
-628K  src
- 20K  dist/index.html
- 12K  dist/style.css
+$ gdu -b src/ src/*.{css,html} dist/*
+593488  src/
+118821  src/application-283b219dd00f455351f48f9346c59ffa.css
+19484   src/f3f9b5ea054779893224.html
+16784   dist/index.html
+11954   dist/style.css
 ```
