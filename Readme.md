@@ -17,6 +17,7 @@ assets from dynamic websites, but for now it supports a farily narrow purpose.
 ## Usage:
 
 ```sh
+$ npm install -g grunt-cli
 $ npm install
 $ URL=https://gist.github.com/nzoschke/f3f9b5ea054779893224 SELECTOR=div.file-box grunt
 
